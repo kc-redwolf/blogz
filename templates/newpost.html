@@ -6,15 +6,15 @@
 
 <form method="post">
     <label>
-        <div>title</div>
-        <input type="text" name="title" value="{{title}}">
+        <div>Title</div>
+        <input type="text" name="blog-title" value="{{title}}">
     </label>
     <label>
-        <div>post</div>
-        <textarea name="body">{{body}}</textarea>
+        <div>Post</div>
+        <textarea name="blog-body">{{blog}}</textarea>
     </label>
     <div class="error">{{ error }}</div>
-    <input type="submit">
+    <input type="submit"/>
 </form>
 
 {% endblock %}
